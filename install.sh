@@ -31,7 +31,7 @@ install_socks5(){
     if [[ -f /etc/socks5/socks5 ]];then
         echo "已经下载socks5"
     else
-        wget http://vipzz.ml/socks5 -O /etc/socks5/socks5
+        wget https://github.com/steamsv/Multi-IPS5/raw/main/socks5 -O /etc/socks5/socks5
         judge "下载 socks5"
         chmod +x /etc/socks5/socks5
     fi
